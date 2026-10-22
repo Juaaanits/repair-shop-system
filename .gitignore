@@ -1,0 +1,38 @@
+# Dependencies and generated output
+node_modules/
+/.next/
+/out/
+/dist/
+/coverage/
+*.tsbuildinfo
+/next-env.d.ts
+
+# Local environment files; commit only the sanitized template
+.env*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Personal editor, agent, cloud and hosting state
+/.vscode/
+/.idea/
+/.codex/
+/.aws/
+/.vercel/
+
+# Local customer exports and database backups (never store real PII in Git)
+/backups/
+/exports/
+*.dump
+*.backup
+
+# OS and editor temporary files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Keep docs/, AGENTS.md, .agents/skills/, package-lock.json and drizzle/ tracked.

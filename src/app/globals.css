@@ -1,0 +1,25 @@
+@import "tailwindcss";
+body {
+  background: #f6f7f8;
+  color: #18202a;
+  font-family: Arial, sans-serif;
+}
+input {
+  display: block;
+  width: 100%;
+  border: 1px solid #64748b;
+  padding: 0.7rem;
+  border-radius: 0.3rem;
+  margin-top: 0.3rem;
+}
+button {
+  background: #174b43;
+  color: white;
+  padding: 0.7rem 1rem;
+  border-radius: 0.3rem;
+  cursor: pointer;
+}
+:focus-visible {
+  outline: 3px solid #b45309;
+  outline-offset: 3px;
+}
